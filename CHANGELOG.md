@@ -2,9 +2,6 @@
 
 ## [Unreleased]
 
-## [0.0.0] - YYYY-MM-DD
+## [0.0.0] - 2026-05-14
 
-- Changed this.
-- Changed that.
-- Added this and that.
-- Deprecated this.
+- Added `validate-commit-message` hook.
