@@ -1,0 +1,7 @@
+= pre-commit-hooks
+
+Reusable configurations for the https://pre-commit.com/[pre-commit] framework.
+
+''''
+
+Copyright © 2020-present Kieran Potts, link:./LICENSE.txt[MIT license]
