@@ -1,18 +1,16 @@
-= pre-commit-hooks
+# pre-commit-hooks
 
-Reusable hook configurations for the https://pre-commit.com/[pre-commit] framework.
+Reusable hook configurations for the [pre-commit](https://pre-commit.com/) framework.
 
-== Available hooks
+## Available hooks
 
-`validate-commit-message`::
-Validates that commit messages follow the format `<type>: <description>`, where `<type>` is one of the allowed revision types.
+- **`validate-commit-message`** — Validates that commit messages follow the format `<type>: <description>`, where `<type>` is one of the allowed revision types.
 
-== Usage
+## Usage
 
 Reference this repository in your project's `.pre-commit-config.yaml`:
 
-[source,yaml]
-----
+```yaml
 default_install_hook_types: [pre-commit, commit-msg]
 
 repos:
@@ -20,26 +18,24 @@ repos:
     rev: <version>
     hooks:
       - id: validate-commit-message
-----
+```
 
 Replace `<version>` with a tag or commit SHA from this repository.
 
-You will need to install the https://pre-commit.com[pre-commit] framework on any system where you want to run pre-commit checks. You need only to run the following command once to install pre-commit system-wide:
+You will need to install the [pre-commit](https://pre-commit.com) framework on any system where you want to run pre-commit checks. You need only to run the following command once to install pre-commit system-wide:
 
-[source,bash]
-----
+```bash
 pip install pre-commit
-----
+```
 
 Then install the pre-commit hooks in every local repository where you want pre-commit checks to be run. That includes this repository – it eats its own dog food, consuming the same hooks it shares with other repositories.
 
-[source,bash]
-----
+```bash
 pre-commit install
-----
+```
 
 This installs all hook types declared in `.pre-commit-config.yaml` (`pre-commit`, `commit-msg`).
 
-''''
+---
 
-Copyright © 2020-present Kieran Potts, link:./LICENSE.txt[MIT license]
+Copyright © 2020-present Kieran Potts, [MIT license](./LICENSE.txt)
