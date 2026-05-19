@@ -1,4 +1,4 @@
-# ==============================================================================
+#
 # Pre-commit hooks configuration. This repository eats its own dog food,
 # consuming the same hooks it shares with other repositories.
 #
@@ -12,7 +12,7 @@
 #
 # Run against all files (useful after adding new hooks):
 #   pre-commit run --all-files
-# ==============================================================================
+#
 
 default_install_hook_types: [pre-commit, commit-msg]
 
