@@ -12,9 +12,7 @@ import re
 import sys
 
 VALID_TYPES = [
-    "add",
     "chore",
-    "edit",
     "feature",
     "fix",
     "format",
@@ -23,8 +21,6 @@ VALID_TYPES = [
     "performance",
     "refactor",
     "release",
-    "remove",
-    "restructure",
     "revert",
     "step",
 ]
