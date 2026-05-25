@@ -36,6 +36,6 @@ pre-commit install
 
 This installs all hook types declared in `.pre-commit-config.yaml` (`pre-commit`, `commit-msg`).
 
----
+-----
 
 Copyright © 2020-present Kieran Potts, [MIT license](./LICENSE.txt)
