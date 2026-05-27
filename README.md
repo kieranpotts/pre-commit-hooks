@@ -25,7 +25,7 @@ Replace `<version>` with a tag or commit SHA from this repository.
 You will need to install the [pre-commit](https://pre-commit.com) framework on any system where you want to run pre-commit checks. You need only to run the following command once to install pre-commit system-wide:
 
 ```bash
-pip install pre-commit
+pipx install pre-commit
 ```
 
 Then install the pre-commit hooks in every local repository where you want pre-commit checks to be run. That includes this repository – it eats its own dog food, consuming the same hooks it shares with other repositories.
