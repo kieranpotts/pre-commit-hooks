@@ -5,7 +5,7 @@ Validate commit message format.
 Enforces commit messages follow the format:
   <type>: <description>
 
-Where <type> is one of the allowed revision types defined in TS-3.
+Where <type> is one of the allowed revision types defined in TS-9.
 """
 
 import re
