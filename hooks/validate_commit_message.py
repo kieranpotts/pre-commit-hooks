@@ -15,7 +15,6 @@ VALID_TYPES = [
     "chore",
     "feature",
     "fix",
-    "format",
     "maintenance",
     "merge",
     "performance",
@@ -23,6 +22,7 @@ VALID_TYPES = [
     "release",
     "revert",
     "step",
+    "style",
 ]
 
 PATTERN = rf"^({'|'.join(VALID_TYPES)}): [a-z0-9].*"
