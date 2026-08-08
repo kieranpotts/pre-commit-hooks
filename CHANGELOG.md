@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-08-08
+
+- Renamed `feature` to `behavior` commit message type, to match TS-9 -
+  BREAKING.
+- Renamed `runtime` to `quality` commit message type, to match TS-9 -
+  BREAKING.
+
 ## [0.3.0] - 2026-08-08
 
 - Renamed `performance` to `runtime` commit message type, to match TS-9 -
