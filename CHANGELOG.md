@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-08-08
+
+- Renamed `performance` to `runtime` commit message type, to match TS-9 -
+  BREAKING.
+- Added `create`, `update`, and `delete` commit message types, matching
+  TS-9's extended revision types for non-executable content repositories.
+
 ## [0.2.0] - 2026-07-07
 
 - Rename "format" to "style" commit message type - BREAKING.
