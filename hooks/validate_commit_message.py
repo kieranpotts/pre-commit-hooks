@@ -12,17 +12,17 @@ import re
 import sys
 
 VALID_TYPES = [
+    "behavior",
     "chore",
     "create",
     "delete",
-    "feature",
     "fix",
     "maintenance",
     "merge",
+    "quality",
     "refactor",
     "release",
     "revert",
-    "runtime",
     "step",
     "style",
     "update",

@@ -20,8 +20,8 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 - **[hooks/validate_commit_message.py](./hooks/validate_commit_message.py)** \
   Validates that a commit message matches `<type>: <description>`, where
   `<type>` is one of the revision types defined in TS-9: the core set
-  (`chore`, `feature`, `fix`, `maintenance`, `merge`, `refactor`, `release`,
-  `revert`, `runtime`, `step`, `style`) plus the extended set for
+  (`behavior`, `chore`, `fix`, `maintenance`, `merge`, `quality`, `refactor`,
+  `release`, `revert`, `step`, `style`) plus the extended set for
   non-executable content repositories (`create`, `update`, `delete`).
 
 - **[.pre-commit-hooks.yaml](./.pre-commit-hooks.yaml)** \
