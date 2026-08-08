@@ -13,16 +13,19 @@ import sys
 
 VALID_TYPES = [
     "chore",
+    "create",
+    "delete",
     "feature",
     "fix",
     "maintenance",
     "merge",
-    "performance",
     "refactor",
     "release",
     "revert",
+    "runtime",
     "step",
     "style",
+    "update",
 ]
 
 PATTERN = rf"^({'|'.join(VALID_TYPES)}): [a-z0-9].*"
