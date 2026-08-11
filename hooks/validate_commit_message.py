@@ -21,11 +21,11 @@ VALID_TYPES = [
     "merge",
     "quality",
     "refactor",
-    "release",
     "revert",
     "step",
     "style",
     "update",
+    "version",
 ]
 
 PATTERN = rf"^({'|'.join(VALID_TYPES)}): [a-z0-9].*"
