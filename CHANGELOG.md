@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+- Renamed `release` to `version` commit message type, consistent with TS-9.
+
 ## [0.4.0] - 2026-08-08
 
 - Renamed `feature` to `behavior` commit message type, consistent with TS-9.
@@ -15,8 +17,8 @@
 
 ## [0.2.0] - 2026-07-07
 
-- Rename `format` to `style` commit message type.
-- Loosen commit message validation to allow numbers.
+- Renamed `format` to `style` commit message type.
+- Loosened commit message validation to allow numbers.
 
 ## [0.1.0] - 2026-05-20
 
