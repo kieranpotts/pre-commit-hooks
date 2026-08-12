@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-08-12
+
 - Renamed `release` to `version` commit message type, consistent with TS-9.
 
 ## [0.4.0] - 2026-08-08
