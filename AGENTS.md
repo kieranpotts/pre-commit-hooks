@@ -2,7 +2,7 @@
 
 Reusable hook configurations for the [pre-commit](https://pre-commit.com/)
 framework, published so other repositories can reference them in their
-`.pre-commit-config.yaml`. This repository eats its own dog food: it installs
+`.pre-commit-config.yaml`. This repository eats its own dog food. It installs
 and runs the same hooks it distributes.
 
 The capitalized words REQUIRED, MUST, MUST NOT, RECOMMENDED, SHOULD,
@@ -13,7 +13,8 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 
 - Python 3 (`hooks/validate_commit_message.py`), run by pre-commit as a
   `language: script` hook — no external Python dependencies.
-- The [pre-commit](https://pre-commit.com/) framework itself, installed via `pipx`.
+- The [pre-commit](https://pre-commit.com/) framework itself, installed
+  via `pipx`.
 
 ## Project structure
 
@@ -51,7 +52,7 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 ## References
 
 This project follows Kieran Potts' technical standards. Read the relevant
-standard(s) below for the current task; their RFC 2119 rules MUST be followed
+standard(s) below for the current task. Their RFC 2119 rules MUST be followed
 unless explicitly overridden elsewhere in this file.
 
 - **[TS-9: Version Control](https://kieranpotts.com/standards/009)**
